@@ -1,36 +1,13 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Wrapper from '../components/Wrapper.astro';
+import '../../public/style/index.css';
 
 let title = 'Ambassy Influencer Management';
 let description = 'This is a starter repo for an blog built with Astro including open graph tags, canonical urls, RSS, sitemap support.';
 let permalink = 'https://example.com/';
 ---
 
-<style>
-.home-hero__section {
-  margin: 2rem auto;
-  text-align: center;
-}
-
-/* .home-cards__container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.home-cards__card {
-  flex: 1 0 21%;
-  width: calc(50% - 1rem);
-  margin: 0.5rem;
-  padding: 0.5rem;
-  background-color: rgb(241, 66, 66);
-  color: white;
-  text-align: center;
-  border-radius: 0.5rem;
-} */
-
-
-</style>
 
 <BaseLayout title={title} description={description} permalink={permalink} canonicalURL={Astro.request.canonicalURL.href}>
   <Wrapper>

@@ -1,0 +1,62 @@
+:root {
+    --font-family-heading: 'proxima-nova', "Helvetica Neue", Helvetica, arial, sans-serif;
+    --font-family-body: 'Roboto', -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+    --font-size-sm: clamp(12.8px, 0.05vw + 12.61px, 13.5px);
+    --font-size-base: clamp(16px, 0.13vw + 15.47px, 18px);
+    --font-size-md: clamp(20px, 0.26vw + 18.95px, 23.99px);
+    --font-size-lg: clamp(25px, 0.46vw + 23.16px, 31.98px);
+    --font-size-xl: clamp(31.25px, 0.75vw + 28.25px, 42.63px);
+    --font-size-xxl: clamp(39.06px, 1.17vw + 34.39px, 56.83px);
+    --font-size-xxxl: clamp(48.83px, 1.77vw + 41.74px, 75.76px);
+  }
+  
+  /* buttons, header, and nav Oswald */
+  
+  body {
+    line-height: 2;
+    font-family: var(--font-family-body);
+    font-size: var(--font-size-base);
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1.2;
+    font-weight: 800;
+    font-family: var(--font-family-heading);
+    /* font-style: italic; */
+    color: var(--theme-primary);
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  blockquote {
+    margin-bottom: 1.5rem;
+  }
+  
+  h1 {
+    font-size: var(--font-size-xxl);
+  }
+  
+  h2 {
+    font-size: var(--font-size-xl);
+  }
+  
+  h3 {
+    font-size: var(--font-size-lg);
+    color: var(--theme-on-bg);
+  }
+  
+  h4 {
+    font-size: var(--font-size-md);
+    color: var(--theme-on-bg);
+  }
+  
+  p.tiny-text {
+    font-size: var(--font-size-sm);
+    line-height: 1;
+  }
